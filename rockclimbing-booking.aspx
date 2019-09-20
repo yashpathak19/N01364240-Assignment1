@@ -14,19 +14,19 @@
             <h2>Personal Details</h2>
             <div>
                 <label for="customer_fname">First Name:</label>
-                <asp:TextBox runat="server" id="customer_fname" name="customer_fname" placeholder="e.g. Yash..."></asp:TextBox>
+                <asp:TextBox runat="server" id="customer_fname" placeholder="e.g. Yash..."></asp:TextBox>
             </div>
             <div>
                 <label for="customer_lname">Last Name:</label>
-                <asp:TextBox runat="server" id="customer_lname" name="customer_lname" placeholder="e.g. Pathak..."></asp:TextBox>
+                <asp:TextBox runat="server" id="customer_lname" placeholder="e.g. Pathak..."></asp:TextBox>
             </div>
             <div>
                 <label for="customer_email">Email:</label>
-                <asp:TextBox runat="server" id="customer_email" name="customer_email" placeholder="abc@example.com"></asp:TextBox>
+                <asp:TextBox runat="server" id="customer_email" placeholder="abc@example.com"></asp:TextBox>
             </div>
             <div>
                 <label for="customer_phonenumber">Phone Number:</label>
-                <asp:TextBox runat="server" id="customer_phonenumber" name="customer_phonenumber" placeholder="0000000000"></asp:TextBox>
+                <asp:TextBox runat="server" id="customer_phonenumber" placeholder="0000000000"></asp:TextBox>
             </div>
             <h2>Booking Information</h2>
             <div>
