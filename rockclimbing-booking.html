@@ -1,10 +1,87 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="utf-8"/>
+    <title>Rock Climbing</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css"/>
 </head>
 <body>
-    testhtml
+    <form method="POST" action="https://postman-echo.com/post">
+        <section>
+            <h1>Rock Climbing Booking</h1>
+            <h2>Personal Details</h2>
+            <div>
+                <label for="customer_fname">First Name:</label>
+                <input type="text" id="customer_fname" name="customer_fname" placeholder="e.g. Yash..." />
+            </div>
+            <div>
+                <label for="customer_lname">Last Name:</label>
+                <input type="text" id="customer_lname" name="customer_lname" placeholder="e.g. Pathak..." />
+            </div>
+            <div>
+                <label for="customer_email">Email:</label>
+                <input type="email" id="customer_email" name="customer_email" placeholder="abc@example.com" />
+            </div>
+            <div>
+                <label for="customer_phonenumber">Phone Number:</label>
+                <input type="tel" id="customer_phonenumber" name="customer_phonenumber" placeholder="0000000000" />
+            </div>
+            <h2>Booking Information</h2>
+            <div>
+                <label>Booking Date:</label>
+                <input type="date" id="customer_bookingdate" name="customer_bookingdate" />
+            </div>
+            <div>
+                <label for="customer_totaladults">Number of Adults</label>
+                <select id="customer_totaladults" name="customer_totaladults">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    <option value="six-more">6+</option>
+                </select>
+            </div>
+            <div>
+                <label>Please select the ID proof that you have</label>
+                <div>
+                    <input type="checkbox" value="licence" id="customer_licence" name="customer_licence" /><label for="customer_licence">Licence</label>
+                    <input type="checkbox" value="passport" id="customer_passport" name="customer_passport" /><label for="customer_passport">Passport</label>
+                    <input type="checkbox" value="citizencard" id="customer_citizencard" name="customer_citizencard" /><label for="customer_citizencard">Canadian Citizenship Card</label>
+                    <input type="checkbox" value="prcard" id="customer_prcard" name="customer_prcard" /><label for="customer_prcard">Canadian Permanent Resident card</label>
+                </div>
+            </div>
+            <h2>Gears and Training</h2>
+            <div>
+                <label for="customer_harnesses">What gears do you require?</label>
+                <div>
+                    <input type="checkbox" value="harnesses" id="customer_harnesses" name="customer_harnesses" /><label for="customer_harnesses">Harnesses</label>
+                    <input type="checkbox" value="belay_device" id="customer_belay_device" name="customer_belay_device" /><label for="customer_belay_device">Belay Device</label>
+                    <input type="checkbox" value="shoes" id="customer_shoes" name="customer_shoes" /><label for="customer_shoes">Shoes</label>
+                </div>
+            </div>
+            <div>
+                <label>Would you require any training?</label>
+                <div>
+                    <input type="radio" id="training_1" name="customer_training" value="yes" /><label for="training_1">Yes</label>
+                    <input type="radio" id="training_1" name="customer_training" value="no" /><label for="training_1">No</label>
+                </div>
+            </div>
+            <fieldset>
+                <legend>Do you want to subscribe to our newsletter?</legend>
+                <div>
+                    <input type="radio" id="yes" name="yesno" value="yes" checked>
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="yesno" value="no">
+                    <label for="no">No</label>
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="submit" />
+            </div>
+        </section>
+    </form>
 </body>
 </html>
