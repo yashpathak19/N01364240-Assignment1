@@ -85,6 +85,15 @@ namespace n01364240_assignment1 {
         protected global::System.Web.UI.WebControls.CheckBoxList customer_proof;
         
         /// <summary>
+        /// customer_personalequipments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox customer_personalequipments;
+        
+        /// <summary>
         /// customer_gears control.
         /// </summary>
         /// <remarks>
@@ -110,5 +119,14 @@ namespace n01364240_assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList customer_newsletter;
+        
+        /// <summary>
+        /// summarybox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl summarybox;
     }
 }

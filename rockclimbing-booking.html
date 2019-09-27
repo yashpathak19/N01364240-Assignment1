@@ -63,23 +63,18 @@
             <div>
                 <label>Would you require any training?</label>
                 <div>
-                    <input type="radio" id="training_1" name="customer_training" value="yes" /><label for="training_1">Yes</label>
-                    <input type="radio" id="training_1" name="customer_training" value="no" /><label for="training_1">No</label>
+                    <input type="radio" id="training_yes" name="customer_training" value="yes" /><label for="training_yes">Yes</label>
+                    <input type="radio" id="training_no" name="customer_training" value="no" /><label for="training_no">No</label>
                 </div>
             </div>
-            <fieldset>
-                <legend>Do you want to subscribe to our newsletter?</legend>
-                <div>
-                    <input type="radio" id="yes" name="yesno" value="yes" checked>
-                    <label for="yes">Yes</label>
-                </div>
-                <div>
-                    <input type="radio" id="no" name="yesno" value="no">
-                    <label for="no">No</label>
-                </div>
-            </fieldset>
+            <h2>Subscription</h2>
+            <label>Do you want to subscribe to our newsletter?</label>
             <div>
-                <input type="submit" value="submit" />
+                <input type="radio" id="customer_newsletter_yes" name="yesno" value="yes" checked> <label for="yes">Yes</label>
+                <input type="radio" id="customer_newsletter_no" name="yesno" value="no"><label for="no">No</label> 
+            </div>
+            <div>
+                <input type="submit" value="Submit" />
             </div>
         </section>
     </form>
